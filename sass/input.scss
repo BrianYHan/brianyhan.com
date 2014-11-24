@@ -1,0 +1,31 @@
+/*@import "bootstrap-compass";
+@import "bootstrap";*/
+/*$font-stack:    Helvetica, sans-serif;*/
+
+$font-stack:    Helvetica Neue, sans-serif;
+$primary-color: #333;
+$font-family: 'Gentium Basic', serif;
+$font-family2: 'Cardo', serif;
+body {
+	font: 100% $font-family;
+	/*font-family: $font-family2;*/
+ /* font: 100% $font-stack;*/
+  color: $primary-color;
+}
+
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}

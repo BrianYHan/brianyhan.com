@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>Brian Y Han | Home</title>
     <!-- Styles -->
-    <link href="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type='javascript'>
+   <!--  <link href="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type='javascript'> -->
 
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    <script src="js/cvJS.js"></script>
+    <!--<script src="js/cvJS.js"></script>-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> 
     <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -132,6 +132,9 @@
 .ribbon-green:after {
   right: 0;
 }
+.navbar-fixed-top .container{
+  width: 970px;
+}
 	</style>
   </head>
 
@@ -157,7 +160,9 @@
                         <li><a class="scroll" href="#news">News</a></li>
                           <!--     <li><a class="scroll" href="calendar.php">Clog</a></li> -->
                         <li><a class="scroll" href="#contact">Contact</a></li>
-                    </ul>
+                        <li><a href="files/portfolio-master.zip">Portfolio</a></li>
+<!--                         <li><a href="files/neffheadwear.zip">Neff</a></li>
+ -->                    </ul>
                 </div><!--/.nav-collapse -->
             </div>
         </div>
@@ -265,7 +270,7 @@
     	<div class="container">
     		<div class="row-fluid">
     			<div class="span12 text-left">
-                    <h1 class="section-title" ><img src="img/blue-line.png" alt="blue-line"><a href="CVs/BrianHanCV3.pdf">Download CV</a></h1>
+                    <h1 class="section-title" ><img src="img/blue-line.png" alt="blue-line"><a href="CVs/BrianHanCV3_serif.pdf">Download CV</a></h1>
                     
                 </div>
             </div>
@@ -279,12 +284,12 @@
           <center>
             
 
-     <form>
+<!--      <form>
                 <input type="text" id="searchbox" placeholder="Search" />
                 <span id="find" type="button" value="Scroll To Anchor">
                   <input type="button" value="Submit" onClick="showcvBox(document.getElementById('searchbox').value)" style="margin-bottom:20px" />
                 </span>
-              </form>
+              </form> -->
         </div>
         
         </div>
@@ -731,7 +736,7 @@
     <script src="js/cvJS.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <!--Twitter Handle - Insert your Twitter username below ex: (screen_name=USERNAME&include) -->
-    <script src="https://api.twitter.com/1/statuses/user_timeline.json?screen_name=Br1anHan&amp;include_rts=true&amp;count=1&amp;callback=twitterCallback2" type="text/javascript"></script>
+    <!--<script src="https://api.twitter.com/1/statuses/user_timeline.json?screen_name=Br1anHan&amp;include_rts=true&amp;count=1&amp;callback=twitterCallback2" type="text/javascript"></script>-->
   
   <script>
       $('.newsText a').click(function() {

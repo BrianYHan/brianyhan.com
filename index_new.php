@@ -1,8 +1,10 @@
 <?php
 	// Template includes
 	require_once 'templates/functions.php';
-	include 'templates/header.php';
+	include 'templates/header_v2.php';
 	include 'templates/menu.php';
+	echo '<body ng-app="byhome">';
 
-	get_dick('ldkfjdkkfd');
-?>
+	echo '<p>{{4 + 6}}';
+	echo '</p>';
+	// get_dick('ldkfjdkkfd');

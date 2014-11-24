@@ -1,0 +1,32 @@
+/*@import "bootstrap-compass";
+@import "bootstrap";*/
+/*$font-stack:    Helvetica, sans-serif;*/
+body {
+  font: 100% "Gentium Basic", serif;
+  /*font-family: $font-family2;*/
+  /* font: 100% $font-stack;*/
+  color: #333; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+body div,
+body div p{
+  font-size: 200%;
+}
+body form,
+body input{
+  font-size: 200%;
+}
+
+#loading{
+  display: none;
+}
+/*# sourceMappingURL=output.css.map */
